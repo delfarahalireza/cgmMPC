@@ -26,11 +26,11 @@ The system combines:
 
 ### **Glucose Predictions**
 ![Glucose Predictions](figures/glucose_predictions_.png)
-*FT+GT prediction accuracy across multiple prediction horizons*
+*FT+GT glucose prediction accuracy across multiple prediction horizons*
 
 ### **MPC Glucose Control**
 ![MPC Control Results](figures/mpc_control_.png)
-*24-hour MPC glucose control showing meal-selective insulin delivery*
+*24-hour MPC glucose control*
 
 ## System Architecture
 
@@ -50,13 +50,12 @@ The system combines:
 
 ### **Core Scripts**
 ```
-pipeline/
+algorithm/
 ├── temporal_simglucose_generator.py  # Data generation with insulin scenarios
 ├── ft_trainer.py                     # FT predictor training
 ├── gt_trainer.py                     # GT predictor training  
 ├── combined_predictor.py             # Combined FT+GT system
-├── mpc.py                            # Complete MPC controller
-└── README.md                         # This documentation
+└── mpc.py                            # Complete MPC controller
 ```
 
 ## Quick Start
