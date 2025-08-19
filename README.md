@@ -5,9 +5,10 @@
 This repository implements a complete **LSTM-based Model Predictive Control (MPC)** system for automated blood glucose control in diabetes management, based on the methodology described in **Aiello et al. 2023**.
 
 The system combines:
+- **SimGlucose Simulator**: To generate training and validation data for different scenarios
 - **FT Predictor**: Long Short-Term Memory (LSTM)-based 8-step glucose predictions
 - **GT Predictor**: Insulin correction factor to capture the relation between glucose concentration and injected bolus insulin
-- **MPC Controller**: Meal-selective insulin delivery with physiological constraints
+- **MPC Controller**: Insulin delivery controller with physiological constraints
 
 ## Key Features
 
