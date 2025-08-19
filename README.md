@@ -135,7 +135,7 @@ else:
 ## References
 
 1. **Aiello, E. M., et al.** (2024). "Model Predictive Control (MPC) of an Artificial Pancreas with
-Data-Driven Learning of Multi-Step-Ahead Blood Glucose Predictors." *Control Engineering Practice*.
+Data-Driven Learning of Multi-Step-Ahead Blood Glucose Predictors." *Control Engineering Practice*. https://www.sciencedirect.com/science/article/abs/pii/S0967066123003799?via=ihub
 
 2. **Xie, J.** (2018). "Simglucose v0.2.1" - A Type-1 Diabetes simulator implemented in Python for Reinforcement Learning purpose. https://github.com/jxx123/simglucose
 
